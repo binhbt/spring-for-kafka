@@ -32,4 +32,8 @@ This project is licensed under the MIT License.
 
 ### Author
 
-[Ali Arslan](https://www.linkedin.com/in/aliarslan10)
+[Ali Arslan](https://www.linkedin.com/in/aliarslan10)  
+`curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '[{"message":"Kafka example message 1"},{"message":"Kafka example message 2"},{"message":"Kafka example message 3"},{"message":"Kafka example message 4"}]' \
+  http://localhost:8080/produce`
